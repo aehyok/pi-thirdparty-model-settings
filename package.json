@@ -1,0 +1,29 @@
+{
+  "name": "pi-api-config",
+  "version": "0.1.0",
+  "description": "Pi coding agent extension: configure third-party API providers (baseUrl / apiKey / models) in a local web page via /apiconfig",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "extension",
+    "models",
+    "provider"
+  ],
+  "author": "aehyok",
+  "license": "MIT",
+  "files": [
+    "api-config.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./api-config.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
