@@ -11,7 +11,7 @@
     "models",
     "provider"
   ],
-  "author": "aehyok",
+  "author": "AI少年",
   "license": "MIT",
   "files": [
     "api-config.ts",
