@@ -1,6 +1,6 @@
 # pi-thirdparty-model-settings
 
-在 [pi](https://pi.dev) 终端里输入 `/apiconfig`，浏览器会打开一个本地配置页，填写第三方 API 的 Base URL、API Key 和模型，保存后 `/model` 里立即可见，无需重启。
+在 [pi](https://pi.dev) 终端里输入 `/dsf-config`，浏览器会打开一个本地配置页，填写第三方 API 的 Base URL、API Key 和模型，保存后 `/model` 里立即可见，无需重启。
 
 ## 安装
 
@@ -21,8 +21,8 @@ pi -e npm:pi-thirdparty-model-settings
 
 | 命令 | 作用 |
 |---|---|
-| `/apiconfig` | 启动本地服务并在浏览器打开配置页（已打开时再次唤起） |
-| `/apiconfig stop` | 关闭配置页服务 |
+| `/dsf-config` | 启动本地服务并在浏览器打开配置页（已打开时再次唤起） |
+| `/dsf-config stop` | 关闭配置页服务 |
 
 配置页功能：
 

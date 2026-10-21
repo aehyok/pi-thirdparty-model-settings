@@ -1,7 +1,7 @@
 /**
  * API Config Extension
  *
- * /apiconfig 打开一个本地网页，填写第三方 API（baseUrl / apiKey / 模型），
+ * /dsf-config 打开一个本地网页，填写第三方 API（baseUrl / apiKey / 模型），
  * 提交后写入 <agent-dir>/models.json，随后 /model 即可看到新模型。
  *
  * 安装：复制到 ~/.pi/agent/extensions/，或 pi --extension ./api-config.ts
@@ -257,7 +257,7 @@ export default function apiConfigExtension(pi: ExtensionAPI) {
 
 	pi.on("session_shutdown", async () => stop());
 
-	pi.registerCommand("apiconfig", {
+	pi.registerCommand("dsf-config", {
 		description: "在浏览器中配置第三方 API（baseUrl / apiKey / 模型）",
 		handler: async (args, ctx) => {
 			if (args.trim() === "stop") {
@@ -357,7 +357,7 @@ export default function apiConfigExtension(pi: ExtensionAPI) {
 			url = `http://127.0.0.1:${address.port}${base}/`;
 			touch();
 			openBrowser(url);
-			ui.notify(`已在浏览器打开 API 配置页：${url}\n（/apiconfig stop 可关闭）`, "info");
+			ui.notify(`已在浏览器打开 API 配置页：${url}\n（/dsf-config stop 可关闭）`, "info");
 		},
 	});
 }
