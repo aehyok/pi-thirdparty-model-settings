@@ -13,6 +13,14 @@
   ],
   "author": "AI少年",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aehyok/pi-thirdparty-model-settings.git"
+  },
+  "homepage": "https://github.com/aehyok/pi-thirdparty-model-settings#readme",
+  "bugs": {
+    "url": "https://github.com/aehyok/pi-thirdparty-model-settings/issues"
+  },
   "files": [
     "api-config.ts",
     "README.md",
