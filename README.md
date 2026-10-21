@@ -1,6 +1,6 @@
 # pi-thirdparty-model-settings
 
-在 [pi](https://pi.dev) 终端里输入 `/dsf-config`，浏览器会打开一个本地配置页，填写第三方 API 的 Base URL、API Key 和模型，保存后 `/model` 里立即可见，无需重启。
+在 [pi](https://pi.dev) 终端里输入 `/dsf-config`（dsf 即"第三方"的拼音首字母），浏览器会打开一个本地配置页，填写第三方 API 的 Base URL、API Key 和模型，保存后 `/model` 里立即可见，无需重启。
 
 ## 安装
 
