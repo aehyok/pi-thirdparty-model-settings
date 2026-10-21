@@ -1,5 +1,5 @@
 {
-  "name": "pi-api-config",
+  "name": "pi-thirdparty-model-settings",
   "version": "0.1.0",
   "description": "Pi coding agent extension: configure third-party API providers (baseUrl / apiKey / models) in a local web page via /apiconfig",
   "type": "module",

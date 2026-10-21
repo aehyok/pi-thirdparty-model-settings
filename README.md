@@ -1,4 +1,4 @@
-# pi-api-config
+# pi-thirdparty-model-settings
 
 在 [pi](https://pi.dev) 终端里输入 `/apiconfig`，浏览器会打开一个本地配置页，填写第三方 API 的 Base URL、API Key 和模型，保存后 `/model` 里立即可见，无需重启。
 
@@ -6,16 +6,16 @@
 
 ```bash
 # 从 npm 安装（推荐）
-pi install npm:pi-api-config
+pi install npm:pi-thirdparty-model-settings
 
 # 或从 GitHub 安装
-pi install git:github.com/<你的用户名>/third-party-model-settings
+pi install git:github.com/aehyok/pi-thirdparty-model-settings
 
 # 只想试用一次，不写入设置
-pi -e npm:pi-api-config
+pi -e npm:pi-thirdparty-model-settings
 ```
 
-安装后重启 pi。卸载：`pi remove npm:pi-api-config`。
+安装后重启 pi。卸载：`pi remove npm:pi-thirdparty-model-settings`。
 
 ## 使用
 
