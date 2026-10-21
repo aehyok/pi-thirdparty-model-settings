@@ -15,7 +15,7 @@ pi install git:github.com/aehyok/pi-thirdparty-model-settings
 pi -e npm:pi-thirdparty-model-settings
 ```
 
-安装后重启 pi。卸载：`pi remove npm:pi-thirdparty-model-settings`。
+安装后重启 pi 或使用 `/reload` 即可启用插件。卸载：`pi remove npm:pi-thirdparty-model-settings`。
 
 ## 使用
 
